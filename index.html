@@ -61,7 +61,7 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <h1 class="title is-1 publication-title" style="font-size: 2rem; line-height: 1.2;">
-              S-Eval: Towards Automated and Comprehensive Safety Evaluation for Large Language Models
+              <span style="font-variant: small-caps;">S-Eval</span>: Towards Automated and Comprehensive Safety Evaluation for Large Language Models
             </h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
@@ -201,7 +201,7 @@
       style="max-width: 60%; height: auto; display: block; margin: 0 auto;" />
       <bar>
     <h2 class="subtitle has-text-centered">
-      Framework of S-Eval.
+      Framework of <span style="font-variant: small-caps;">S-Eval</span>.
     </h2>
   </div>
   </section>
@@ -221,15 +221,15 @@
             Despite this need, owing to the extensiveness of LLM generation space, it still lacks a unified and standardized risk taxonomy to systematically reflect the LLM content safety, as well as automated safety assessment techniques to explore the potential risk efficiently.
           </p>
           <p>
-            To bridge the striking gap, we propose <strong>S-Eval</strong>, a novel LLM-based automated <strong>S</strong>afety <strong>Eval</strong>uation framework with a newly defined comprehensive risk taxonomy. S-Eval incorporates two key components, i.e., an expert testing LLM \( \mathcal{M}_t \) and a novel safety critique LLM \( \mathcal{M}_c \).
-            The expert testing LLM \( \mathcal{M}_t \) is responsible for automatically generating test cases in accordance with the proposed risk taxonomy (including 8 risk dimensions and a total of 102 subdivided risks). 
+            To bridge the striking gap, we propose <strong><span style="font-variant: small-caps;">S-Eval</span></strong>, a novel LLM-based automated <strong><span style="font-variant: small-caps;">S</span></strong>afety <strong><span style="font-variant: small-caps;">Eval</span></strong>uation framework with a newly defined comprehensive risk taxonomy. <span style="font-variant: small-caps;">S-Eval</span> incorporates two key components, i.e., an expert testing LLM \( \mathcal{M}_t \) and a novel safety critique LLM \( \mathcal{M}_c \).
+            The expert testing LLM \( \mathcal{M}_t \) is responsible for automatically generating test cases in accordance with the proposed risk management (including 8 risk dimensions and a total of 102 subdivided risks). 
             The safety critique LLM \( \mathcal{M}_c \) can provide quantitative and explainable safety evaluations for better risk awareness of LLMs.
-            In contrast to prior works, S-Eval differs in significant ways: 
+            In contrast to prior works, <span style="font-variant: small-caps;">S-Eval</span> differs in significant ways: 
             (i) <i>efficient</i> -- we construct a multi-dimensional and open-ended benchmark comprising 220,000 test cases across 102 risks utilizing \( \mathcal{M}_t \) and conduct safety evaluations for 21 influential LLMs via \( \mathcal{M}_c \) on our benchmark. The entire process is fully automated and requires no human involvement. 
-            (ii) <i>effective</i> -- extensive validations show S-Eval facilitates a more thorough assessment and better perception of potential LLM risks, and \( \mathcal{M}_c \) not only accurately quantifies the risks of LLMs but also provides explainable and in-depth insight into their safety, surpassing comparable models such as LLaMA-Guard-2.
-            (iii) <i>adaptive</i> -- S-Eval can be flexibly configured and adapted to the rapid evolution of LLMs and accompanying new safety threats, test generation methods and safety critique methods thanks to the LLM-based architecture.
+            (ii) <i>effective</i> -- extensive validations show <span style="font-variant: small-caps;">S-Eval</span> facilitates a more thorough assessment and better perception of potential LLM risks, and \( \mathcal{M}_c \) not only accurately quantifies the risks of LLMs but also provides explainable and in-depth insight into their safety, surpassing comparable models such as LLaMA-Guard-2.
+            (iii) <i>adaptive</i> -- <span style="font-variant: small-caps;">S-Eval</span> can be flexibly configured and adapted to the rapid evolution of LLMs and accompanying new safety threats, test generation methods and safety critique methods thanks to the LLM-based architecture.
             We further study the impact of hyper-parameters and language environments on model safety, which may lead to promising directions for future research. 
-            S-Eval has been deployed in our industrial partner for the automated safety evaluation of multiple LLMs serving millions of users, demonstrating its effectiveness in real-world scenarios. 
+            <span style="font-variant: small-caps;">S-Eval</span> has been deployed in our industrial partner for the automated safety evaluation of multiple LLMs serving millions of users, demonstrating its effectiveness in real-world scenarios. 
           </p>
         </div>
       </div>
@@ -376,7 +376,7 @@
         <div class="content">
 
           <p>
-            S-Eval may contain offensive or upsetting content, is intended for legitimate academic research only, and is strictly prohibited for use in any commercial endeavor or for any other illegal purpose. The views expressed in the benchmark are not related to the organizations, authors and affiliated entities involved in this project. All consequences arising from the use of this benchmaek are the sole responsibility of the user. This benchmark may not be modified, distributed or otherwise misused without express permission. If you have any questions, please contact <a href="mailto:xiaohanyuan@zju.edu.cn">xiaohanyuan@zju.edu.cn</a>.
+            <span style="font-variant: small-caps;">S-Eval</span> may contain offensive or upsetting content, is intended for legitimate academic research only, and is strictly prohibited for use in any commercial endeavor or for any other illegal purpose. The views expressed in the benchmark are not related to the organizations, authors and affiliated entities involved in this project. All consequences arising from the use of this benchmaek are the sole responsibility of the user. This benchmark may not be modified, distributed or otherwise misused without express permission. If you have any questions, please contact <a href="mailto:xiaohanyuan@zju.edu.cn">xiaohanyuan@zju.edu.cn</a>.
           </p>
 
         </div>
