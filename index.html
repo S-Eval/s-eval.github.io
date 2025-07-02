@@ -194,7 +194,7 @@
             </span>
             
             <!-- ArXiv abstract Link -->
-            <span class="link-block">
+            <!-- <span class="link-block">
               <a href="https://arxiv.org/abs/2405.14191" target="_blank"
               class="external-link button is-normal is-rounded is-dark">
                 <span class="icon">
@@ -202,7 +202,7 @@
                 </span>
                 <span>arXiv</span>
               </a>
-            </span>
+            </span> -->
           </div>
         </div>
       </div>
@@ -243,7 +243,7 @@
             The safety critique LLM \( \mathcal{M}_c \) can provide quantitative and explainable safety evaluations for better risk awareness of LLMs.
             In contrast to prior works, <span style="font-variant: small-caps;">S-Eval</span> differs in significant ways: 
             (i) <i>efficient</i> -- we construct a multi-dimensional and open-ended benchmark comprising 220,000 test cases across 102 risks utilizing \( \mathcal{M}_t \) and conduct safety evaluations for 21 influential LLMs via \( \mathcal{M}_c \) on our benchmark. The entire process is fully automated and requires no human involvement. 
-            (ii) <i>effective</i> -- extensive validations show <span style="font-variant: small-caps;">S-Eval</span> facilitates a more thorough assessment and better perception of potential LLM risks, and \( \mathcal{M}_c \) not only accurately quantifies the risks of LLMs but also provides explainable and in-depth insight into their safety, surpassing comparable models such as LLaMA-Guard-2.
+            (ii) <i>effective</i> -- extensive validations show <span style="font-variant: small-caps;">S-Eval</span> facilitates a more thorough assessment and better perception of potential LLM risks, and \( \mathcal{M}_c \) not only accurately quantifies the risks of LLMs but also provides explainable and in-depth insights into their safety, surpassing comparable models such as LLaMA-Guard-2.
             (iii) <i>adaptive</i> -- <span style="font-variant: small-caps;">S-Eval</span> can be flexibly configured and adapted to the rapid evolution of LLMs and accompanying new safety threats, test generation methods and safety critique methods thanks to the LLM-based architecture.
             We further study the impact of hyper-parameters and language environments on model safety, which may lead to promising directions for future research. 
             <span style="font-variant: small-caps;">S-Eval</span> has been deployed in our industrial partner for the automated safety evaluation of multiple LLMs serving millions of users, demonstrating its effectiveness in real-world scenarios. 
@@ -374,12 +374,22 @@
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>
-        @article{yuan2024seval,
+        <!-- @article{yuan2024seval,
           title={S-Eval: Towards Automated and Comprehensive Safety Evaluation for Large Language Models},
           author={Xiaohan Yuan and Jinfeng Li and Dongxia Wang and Yuefeng Chen and Xiaofeng Mao and Longtao Huang and Jialuo Chen and Hui Xue and Xiaoxia Liu and Wenhai Wang and Kui Ren and Jingyi Wang},
           journal={arXiv preprint arXiv:2405.14191},
           year={2024}
-        }
+        } -->
+      @article{yuan2025s,
+        title={S-Eval: Towards Automated and Comprehensive Safety Evaluation for Large Language Models},
+        author={Yuan, Xiaohan and Li, Jinfeng and Wang, Dongxia and Chen, Yuefeng and Mao, Xiaofeng and Huang, Longtao and Chen, Jialuo and Xue, Hui and Liu, Xiaoxia and Wang, Wenhai and others},
+        journal={Proceedings of the ACM on Software Engineering},
+        volume={2},
+        number={ISSTA},
+        pages={2136--2157},
+        year={2025},
+        publisher={ACM New York, NY, USA}
+      }
       </code></pre>
     </div>
 </section>
